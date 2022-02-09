@@ -3,6 +3,19 @@ Có thể download tại:
 * Dataset: https://drive.google.com/file/d/1i5LKLtcEs4Hb39UjYIq0B_HR0DEiVXHX/view?usp=sharing
 * Label: https://github.com/thangdduong/CS114.M11.KHCL/blob/main/dataset/label.csv
 
+## Cách sử dụng
+<ul>
+<li>Ảnh đã được label như trong file <a href="https://github.com/thangdduong/CS114.M11.KHCL/blob/main/dataset/label.csv" target="_top">label.csv</a></li>
+<li>Có thể sử dụng theo cách dưới đây</li>
+  <ul>
+    <li> Đọc ảnh theo từng file trong label.csv. </li>
+    <li> Sau đó lưu ảnh thành numpy array hoặc tensor (nếu sử dụng PyTorch) và lưu thành file bên ngoài. Như vậy thì thứ tự label và ảnh sẽ không bị thay đổi.</li>
+    <li> Tùy thuộc vào mục đich sử dụng thì sẽ đọc theo cách khác nhau.
+  </ul>
+</ul>
+
+> Ví dụ minh họa có thể xem tại mục _Xây dựng Dataset_ trong file main.ipynb
+
 ## Bảng mô tả chi tiết:
 |     **ID**                                            | **Class name**  | **Describe**                           | **Taken**  | **Crawled**  | **Total per class**     |
 | :---------------------------------------------------: | :-------------- | :------------------------------------- | :--------: | :----------: | :---------------------: |
